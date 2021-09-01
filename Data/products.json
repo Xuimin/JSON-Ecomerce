@@ -1,0 +1,34 @@
+[
+    {
+        "id": "612775c918c12",
+        "name": "Winter Painting",
+        "price": 13,
+        "description": "This is 1st painting...",
+        "image": "\/Public\/1629976009-Winter.jpg",
+        "isActive": true
+    },
+    {
+        "id": "612775e029845",
+        "name": "Spring Painting",
+        "price": "15",
+        "description": "This is 2nd painting...",
+        "image": "\/Public\/1629976032-Spring.jpg",
+        "isActive": true
+    },
+    {
+        "id": "612775f5c5ba7",
+        "name": "Autumn Painting",
+        "price": "22",
+        "description": "This is 3rd painting...",
+        "image": "\/Public\/1629976053-Autumn.jpg",
+        "isActive": true
+    },
+    {
+        "id": "612c4941f2e7e",
+        "name": "Summer Painting",
+        "price": 27,
+        "description": "This is the 4th painting...",
+        "image": "\/Public\/1630292289-Summer.jpg",
+        "isActive": true
+    }
+]

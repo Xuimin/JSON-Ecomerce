@@ -1,0 +1,23 @@
+[
+    {
+        "id": "61234e2ed6664",
+        "fullname": "Xuimin27",
+        "username": "Xuimin27",
+        "password": "$2y$10$M0bK3iKHIsHkCt94bx\/BLOp6LPln8B4wrUI6yJPMEnwndeTXh8SAy",
+        "isAdmin": true
+    },
+    {
+        "id": "6124535ebf489",
+        "fullname": "Crystal13",
+        "username": "Crystal13",
+        "password": "$2y$10$aa39WDV.Z2CcUfdv5dqsD.F8flK7IgAcT8ogxQI56zZFtNqjhXtzm",
+        "isAdmin": false
+    },
+    {
+        "id": "6124539537cfe",
+        "fullname": "Clever12",
+        "username": "Clever12",
+        "password": "$2y$10$zbpfSjqGPwXAcNj8iwRx0uDu17EvLT.gYiI86zKIrsLkwf\/0P7.aW",
+        "isAdmin": false
+    }
+]

@@ -1,0 +1,84 @@
+What is ECommerce?
+    Ecommerce, also known as electronic or internet commerce, refers to the buying and selling of goods or services using the internet. Ecommerce is often used to refer to the sale of physical products online, but it can also describe any kind of commercial transaction that is facilitated through the internet.
+
+Types of Ecommerce Models:
+    1. Business to Cosumer (B2C)
+    - When a business sells a good or service to an individual consumer. (Nike)
+
+    2. Business to Business (B2B) -> Business to business and consumer
+    -When a business sells a good or service to another business.
+    Ex: A business sells software-as-a-service (SaaS) for other business to use. (Shopee & Lazada)
+    
+    3. Consumer to Consumer (C2C)
+    When a consumer sells a good or service to another consumer.
+    Ex: You sell your old guitar on ebay.
+    
+    4. Consumer to Business (C2B)
+    - When a consumer sells their own product or service to another business or organization
+    Ex: (web developer, a phtotographer, an architect, freelancer)
+    
+    Source: shopify.com/encyclopedia/what-is-ecommerce
+
+
+MVP - Minimum viable product
+Specs of our Ecommerce (B2C)
+    - Feature freaka
+
+What are the actions can an admin do on this app:
+    ADMIN
+        - Add a product (DONE)
+        - Edit a product (DONE)
+        - Delete a product (DONE)
+        - Soft Deletes (DONE)
+        - View all transactions
+        - Approve transactions
+
+    USER
+        - Add product to cart (DONE)
+        - View cart items (DONE)
+        - Edit a product (increase, decrease quantity) (DONE)
+        - Delete an item on the cart (DONE)
+        - Empty cart (DONE)
+        - Checkout
+        - Register (DONE)
+
+    FOR BOTH ADMIN AND USER
+        - Login (DONE)
+        - Logout (DONE)
+        - View all products (DONE)
+        - View a single product (DONE)
+    
+
+Data Model 
+Products (DONE)
+    - id
+    - name
+    - price
+    - description
+    - image
+    - isActive
+
+User (DONE)
+    - id
+    - fullname
+    - username
+    - password
+    - isAdmin*
+
+Transactions 
+    - id
+    - username
+    - items [
+        {
+            productId:
+            quantity:
+        }
+    ]
+    - total
+    - datePurchased
+    - payment = 'screensot'
+    - status = 'pending', 'cancelled', 'completed'
+
+- Route Protection (If you are not logged in you cannot access certain pages ex Cart, Transactions)
+- If you are already logged in you cannot access login page or register page
+- Deployment in Heroku
